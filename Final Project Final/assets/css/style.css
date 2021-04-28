@@ -1,0 +1,85 @@
+html,body{
+  height: 100%;
+  padding: 10px;
+}
+
+
+#navbar, #title {
+  font-family:'Poppins';
+  font-size:30px;
+}
+
+header { 
+  display:flex;
+	flex-direction:row;
+  justify-content:space-between;
+  padding-bottom:60px;
+
+}
+
+ul {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+	margin-top: -30px;	
+}
+
+.albums{
+  display:flex; 
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin:10px;
+  justify-content:center;
+  padding-top:45px;
+}
+
+
+
+
+/**baby one more time*/
+#video1, #video2, #video3, #video4, #video5, #video6{ 
+ 
+  transition: all .2s ease-in-out; 
+  opacity:.95; 
+  text-align:center;
+  margin: 38px;
+  
+}
+
+#warningGod {
+  padding:10px;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+
+#video1:hover, #video2:hover, #video3:hover, #video4:hover, #video5:hover, #video6:hover  {
+  transform: scale(1.1); 
+  opacity:1.1;
+}
+
+.britney, .toxic, .circus, .gimmemore, .amy {
+  
+  height:300px;
+  width:300px;
+}
+
+#text, #text-1{
+  font-size: 25px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  color:#FCD0D1;
+}
+
+/**lucky**/
+.dinos {
+  height:300px;
+  width:300px;
+}
+
+
